@@ -1,0 +1,108 @@
+/* src/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.app-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
+
+.destination-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.destination {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.destination img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.booking-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.booking-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e67e22; /* Vibrant orange to make it stand out */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.booking-button:hover {
+    background-color: #d35400; /* Darker shade for hover effect */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.booking-button:active {
+    background-color: #c0392b; /* Even darker shade for active state */
+    transform: translateY(0); /* Return to original position */
+}
+
+
